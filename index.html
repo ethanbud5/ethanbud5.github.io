@@ -17,6 +17,7 @@
   <!-- Main Stylesheet File -->
   <link href="css/reset.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <script src="js/main.js"></script>
 
 </head>
 
@@ -24,21 +25,30 @@
   <header>
     <h2>Ethan Sanders</h2>
     <nav>
-      <span class="active">Home</span>
-      <a href="/about.html">About</a>
-      <a href="/about.html">Skills</a>
-      <a href="#portfolio">Projects</a>
-      <a href="/contact.html">Contact</a>
+      <span onclick="scrollClick('home')" class="active">Home</span>
+      <span onclick="scrollClick('about')">About</span>
+      <span onclick="scrollClick('skills')">Skills</span>
+      <span onclick="scrollClick('projects')">Projects</span>
+      <span onclick="scrollClick('contact')">Contact</span>
     </nav>
   </header>
-  <div class="hero_container">
+  <div id="home" class="hero_container">
     <div class="hero_text">
       <h2>My name is</h2>
       <h1>Ethan Sanders</h1>
       <h2>Web Developer</h2>
     </div>
   </div>
-  <div id="portfolio" class="my_portfolio">
+  <div id="about" class="section_container">
+    <h1>About Me</h1>
+    <div class="home_portfolio_container">
+
+  </div>
+  <div id="skills" class="section_container">
+    <h1>Skills</h1>
+      
+  </div>
+  <div id="projects" class="section_container">
     <h1>My Portfolio</h1>
     <div class="home_portfolio_container">
       <div>
@@ -52,6 +62,10 @@
         </div>
       </div>
     </div>
+  </div>
+  <div id="contact" class="section_container">
+    <h1>Contact</h1>
+  
   </div>
   <footer>
     <p>© Copyright Ethan Sanders 2018</p>
