@@ -1,5 +1,6 @@
 body{
     font-family: Montserrat;
+    background: #f2f2f2;
 }
 /* HEADER AND NAVBAR */
 header{
@@ -84,34 +85,35 @@ header>nav>span{
 }
 
 /* MY PORTFOLIO ON HOME PAGE */
+#projects{
+    min-height: auto;
+}
 .home_portfolio_container{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 .home_portfolio_container>div{
-    /* border: 1px solid #222222;
-    padding: 30px; */
+    width: 45%;
+    position: relative;
 }
 .home_portfolio_container>div>h2{
     font-size: 1.5em;
     margin-bottom: 20px;
 }
-.home_portfolio_container>div>div{
-    height: 200px;
-    width: 350px;
-    padding: 30px;
+.home_portfolio_container>div>img{
+    height: auto;
+    width: 100%;
     cursor: pointer;
+    transition: 0.5s;
+    border: 3px solid black;
 }
-.gather_card{
-    background: url("../img/gather_screenshot.PNG");
-    background-size: contain;
-    background-repeat: no-repeat
+.home_portfolio_container>div>img:hover{
+    opacity: 0.3;
 }
-.topspin_card{
-    background: url("../img/topspin_screenshot.PNG");
-    background-size: contain;
-    background-repeat: no-repeat
+.home_portfolio_container>div>img:hover + .image_text{
+    display: block;
 }
 
 /* ABOUT SECTION */
@@ -121,16 +123,33 @@ header>nav>span{
 }
 .about_text{
     line-height: 30px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.profile_image{
+    width: auto;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 8px;
 }
 
 /* SKILLS SECTION */
-
+#skills{
+    min-height: auto;
+}
+#skills>p{
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
 .skill_container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
+    width: 80%;
+    margin: 0 auto;
 }
 .skill_container>img{
     box-sizing: border-box;
