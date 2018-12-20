@@ -23,7 +23,7 @@
         position: absolute;
         left: 0;
         top: -190px;
-        width: calc(100vw - 37px);
+        width: 100vw;
         justify-content: center;
         align-items: flex-start;
         background-color: rgba(0, 0, 0, 0.5);
