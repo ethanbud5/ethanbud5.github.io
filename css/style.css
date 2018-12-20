@@ -83,6 +83,7 @@ header>nav>span{
     font-size: 2em;
     margin-bottom: 50px;
     border-bottom: 1px solid #1abc9c;
+    padding-bottom: 5px;
 }
 
 /* MY PORTFOLIO ON HOME PAGE */
@@ -113,18 +114,28 @@ header>nav>span{
 .home_portfolio_container>div>img:hover{
     opacity: 0.3;
 }
-.home_portfolio_container>div>img:hover + .image_text{
-    display: block;
+.home_portfolio_container>div>p{
+    margin-top: 20px;
+}
+.tech_used_container{
+    margin-bottom: 8px;
+}
+.tech_used_container>span{
+    color: #636363;
+    font-size: 13px;
 }
 
 /* ABOUT SECTION */
 
+#about{
+    min-height: auto;
+}
 #about>h1{
-    border-bottom: 1px solid #222222;
+    border-bottom: 1px solid #1abc9c;;
 }
 .about_text{
     line-height: 30px;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -147,16 +158,28 @@ header>nav>span{
 .skill_container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    /* flex-direction: column; */
     flex-wrap: wrap;
     width: 80%;
     margin: 0 auto;
 }
-.skill_container>img{
+.skill_container>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.skill_container>div>img{
     box-sizing: border-box;
     height: 100px;
     width: 100px;
     margin: 20px;
+}
+.skill_container>div>h1{
+    font-size: 17px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
 }
 
 /* CONTACT */
