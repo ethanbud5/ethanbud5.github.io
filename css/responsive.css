@@ -23,7 +23,7 @@
         position: absolute;
         left: 0;
         top: -190px;
-        width: 100%;
+        width: calc(100vw - 37px);
         justify-content: center;
         align-items: flex-start;
         background-color: rgba(0, 0, 0, 0.5);
@@ -36,5 +36,9 @@
     .nav_container>span{
         margin-bottom: 15px;
         font-weight: 300;
+    }
+    .profile_image{
+        width: 90%;
+        height: auto;
     }
   }

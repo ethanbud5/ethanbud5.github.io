@@ -197,7 +197,7 @@ header>h2{
 /* CONTACT */
 
 #contact{
-    min-height: auto;
+    min-height: 100vh;
     line-height: 30px;
     margin-bottom: 50px;
 }
