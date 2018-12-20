@@ -200,11 +200,28 @@ header>h2{
     min-height: 100vh;
     line-height: 30px;
     margin-bottom: 50px;
+    width: 80%;
+    margin: 0 auto;
 }
 #contact>p{
     font-size: 25px;
     margin-bottom: 20px;
     font-weight: 500;
+}
+.back_to_top{
+    margin-top: 20vh;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 4px;
+    background: #1abc9c;
+    color: white;
+    font-size: 16px;
+    border: 0px;
+    cursor: pointer;
+}
+.back_to_top:hover{
+    background: #2addb9;
 }
 
 /* FOOTER */

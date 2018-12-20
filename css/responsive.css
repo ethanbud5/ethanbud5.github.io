@@ -42,3 +42,8 @@
         height: auto;
     }
   }
+  @media only screen and (max-width: 570px) {
+    .skill_container{
+        justify-content: flex-start;
+    }
+  }
