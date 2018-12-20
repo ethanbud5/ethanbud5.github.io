@@ -17,6 +17,7 @@
   <!-- Main Stylesheet File -->
   <link href="css/reset.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
   <script src="js/main.js"></script>
 
 </head>
@@ -24,13 +25,14 @@
 <body>
   <header>
     <h2>Ethan Sanders</h2>
-    <nav>
+    <nav id="nav" class="nav_container">
       <span onclick="scrollClick('home')" class="active">Home</span>
       <span onclick="scrollClick('about')">About</span>
       <span onclick="scrollClick('skills')">Skills</span>
       <span onclick="scrollClick('projects')">Projects</span>
       <span onclick="scrollClick('contact')">Contact</span>
     </nav>
+    <img onclick="toggleNav()" class="hamburger" src="/img/hamburger.svg" alt="hamburger menu">
   </header>
   <section id="home" class="hero_container">
     <div class="hero_text">

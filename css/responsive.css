@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1172px) {
+    .home_portfolio_container{
+        flex-direction: column;
+    }
+    .home_portfolio_container>div>h2{
+        margin-top: 20px;
+    }
+  }
+@media only screen and (max-width: 1030px) {
+    header>h2{
+        margin-left: 2%;
+    }
+    header>nav{
+        margin-right: 5%;
+    }
+  }
+@media only screen and (max-width: 830px) {
+    .hamburger{
+        display: block;
+    }
+    .nav_container{
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top: -190px;
+        width: 100%;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+    .nav_container_open{
+        border-top: 1px solid white;
+        top: 50px;
+    }
+    .nav_container>span{
+        margin-bottom: 15px;
+        font-weight: 300;
+    }
+  }
