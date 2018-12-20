@@ -11,11 +11,7 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    position: sticky;
-    position: -webkit-sticky;
-    position: -moz-sticky;
-    position: -ms-sticky;
-    position: -o-sticky;
+    position: fixed;
     top: 0;
     z-index: 1;
 }
