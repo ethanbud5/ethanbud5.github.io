@@ -14,7 +14,10 @@
         margin-right: 5%;
     }
   }
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 834px) {
+    header>h2{
+        margin: 0 auto;
+    }
     .hamburger{
         display: block;
     }
@@ -45,5 +48,13 @@
   @media only screen and (max-width: 570px) {
     .skill_container{
         justify-content: flex-start;
+    }
+  }
+  @media only screen and (max-width: 379px) {
+    header>h2{
+        display: none;
+    }
+    header>img{
+        display: block;
     }
   }

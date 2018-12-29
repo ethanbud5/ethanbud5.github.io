@@ -21,6 +21,12 @@ header>h2{
     color: #1abc9c;
     font-weight: 400;
 }
+header>img{
+    height: 70px;
+    width: 70px;
+    margin: 0 auto;
+    display: none;
+}
 .nav_container{
     margin-right: 10%;
     width: 500px;
